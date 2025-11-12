@@ -1,0 +1,373 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --light-green: #d5ff79;
+  --dark-green: #5cd572;
+}
+
+Header {
+  margin-bottom: calc(20 * 100vw / 1920);
+}
+
+.mainPageLogo {
+  font-family: "ClashGrotesk-Bold";
+  font-size: calc(35 / 1920 * 100vw);
+  margin-top: calc(20 / 1920 * 100vw);
+  margin-left: calc(50 / 1920 * 100vw);
+}
+
+.headerWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+Header ul {
+  display: flex;
+  list-style-type: none;
+  font-family: "ClashGrotesk-Medium";
+  font-size: calc(20 / 1920 * 100vw);
+  width: calc(537 / 1920 * 100vw);
+  justify-content: space-between;
+}
+
+Header nav {
+  margin-top: calc(30 / 1920 * 100vw);
+}
+
+.headerWrapper button {
+  font-family: "ClashGrotesk-Bold";
+  font-size: calc(20 / 1920 * 100vw);
+  background-color: black;
+  color: white;
+  border-radius: calc(30 / 1920 * 100vw);
+  border: none;
+  margin-top: calc(20 / 1920 * 100vw);
+  margin-right: calc(50 / 1920 * 100vw);
+  border: 3px solid transparent;
+}
+
+.headerButtonDiv {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.headerButtonText {
+  margin-left: calc(40 / 1920 * 100vw);
+}
+
+.headerButtonArrow {
+  width: calc(42 / 1920 * 100vw);
+  height: auto;
+  margin-left: calc(23 / 1920 * 100vw);
+  margin-right: calc(15 / 1920 * 100vw);
+  transform: translateX(0);
+  transition: transform 0.5s ease-in-out;
+}
+
+.headerButtonArrow.white {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.headerButtonArrow.black {
+  opacity: 0;
+  transform: translateX(-5px);
+  position: absolute;
+  right: calc(15 / 1920 * 100vw);
+}
+
+.headerWrapper button:hover {
+  border: 3px solid black;
+  background-color: white;
+  color: black;
+}
+
+.headerWrapper button:active {
+  border: 3px solid transparent;
+  color: white;
+  background-color: black;
+}
+
+.headerWrapper button:hover .headerButtonArrow.white {
+  opacity: 0;
+  transform: translateX(0);
+}
+.headerWrapper button:hover .headerButtonArrow.black {
+  opacity: 1;
+  transform: translateX(11px);
+}
+
+.headerWrapper button:active .headerButtonArrow.white {
+  opacity: 1;
+}
+
+.headerWrapper button:active .headerButtonArrow.black {
+  opacity: 0;
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+.topSectionWrapper {
+  background-image: url("./assets/graphic_assets/main_page_background.png");
+  padding-top: calc(135 / 1920 * 100vw);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.topSectionWrapper h1 {
+  font-size: calc(246 / 1920 * 100vw);
+  font-family: "Formula Condensed Bold";
+  letter-spacing: 5px;
+}
+
+.topSectionWrapper {
+  text-align: center;
+}
+
+.quarterHeader {
+  margin-top: calc(-60 * 100vw / 1920);
+}
+
+.topSectionAnnotation {
+  font-size: calc(50 / 1920 * 100vw);
+  font-family: "ClashGrotesk-Semibold";
+}
+
+.topSectionAnnotationDiv {
+  max-width: calc(770 / 1920 * 100vw);
+  margin-top: calc(205 * 100vw / 1920);
+  line-height: 1;
+  margin-bottom: calc(80 * 100vw / 1920);
+  overflow: hidden;
+}
+
+.spaceSticker {
+  position: absolute;
+  top: calc(100vw / 1920 * 900);
+  left: calc(40 / 1920 * 100vw);
+  width: calc(230 / 1920 * 100vw);
+  height: auto;
+}
+
+.artistsSticker {
+  position: absolute;
+  top: calc(100vw / 1920 * 900);
+  right: calc(40 / 1920 * 100vw);
+  width: calc(150 / 1920 * 100vw);
+  height: auto;
+}
+
+.movingLineDiv {
+  overflow: hidden;
+  width: 100%;
+}
+
+.movingLineTrack {
+  display: flex;
+  width: 300%;
+  animation: moveLine 10s linear infinite;
+  will-change: transform;
+}
+
+.movingLine {
+  width: 50%;
+  height: auto;
+  flex-shrink: 0;
+}
+
+@keyframes moveLine {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.weatherText {
+  font-size: calc(130 / 1920 * 100vw);
+  font-family: "Formula Condensed Bold";
+  line-height: 0.9;
+  margin-top: 5px;
+}
+
+.weatherTextWrapper {
+  max-width: calc(941 / 1920 * 100vw);
+  padding-left: calc(50 / 1920 * 100vw);
+}
+
+.weatherIcon {
+  width: calc(113 / 1920 * 100vw);
+  height: auto;
+}
+
+.eyesIcon {
+  width: calc(185 / 1920 * 100vw);
+  height: auto;
+  margin-top: calc(70 / 1920 * 100vw);
+}
+
+.weatherSectionWrapper {
+  display: flex;
+  padding-top: calc(145 / 1920 * 100vw);
+  padding-bottom: calc(154 / 1920 * 100vw);
+}
+
+.weatherImagesWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: calc(110 / 1920 * 100vw);
+}
+
+.weatherSectionImage {
+  width: calc(673 / 1920 * 100vw);
+  height: auto;
+  margin-left: calc(49 / 1920 * 100vw);
+  object-fit: cover;
+}
+
+.placeFactsCardsWrapper {
+  display: flex;
+}
+.placeFactCardHeader {
+  font-family: "ClashGrotesk-Medium";
+  font-size: calc(20 / 1920 * 100vw);
+  z-index: 1;
+}
+
+.placeFact {
+  font-family: "Formula Condensed Bold";
+  font-size: calc(106 / 1920 * 100vw);
+}
+
+.greenAreas {
+  background-color: var(--light-green);
+}
+
+.squared {
+  font-size: calc(38 / 1920 * 100vw);
+  font-family: "Formula Condensed Bold";
+  margin-left: 5px;
+}
+
+.placeFactWrapperDiv {
+  display: flex;
+}
+
+.bigGreenCircle {
+  width: calc(344 / 1920 * 100vw);
+  height: auto;
+  position: relative;
+  top: calc(-200 / 1920 * 100vw);
+  z-index: 0;
+  left: calc(26 / 1920 * 100vw);
+}
+
+.placeFactCardTextWrapper {
+  margin-left: calc(50 / 1920 * 100vw);
+  position: relative;
+  z-index: 1;
+}
+
+.placeCard {
+  padding-top: calc(64 / 1920 * 100vw);
+  width: calc(480 / 1920 * 100vw);
+  height: calc(600 / 1920 * 100vw);
+  overflow: hidden;
+}
+
+.circleGraphPicture {
+  width: calc(400 / 1920 * 100vw);
+  height: auto;
+  position: absolute;
+  left: calc(66 / 1920 * 100vw);
+  top: calc(2050 / 1920 * 100vw);
+}
+
+.restaurants {
+  background-color: var(--dark-green);
+}
+
+.greenThingy {
+  width: calc(450 / 1920 * 100vw);
+  position: relative;
+  top: calc(-90 / 1920 * 100vw);
+  left: calc(-45 / 1920 * 100vw);
+  z-index: 1;
+}
+
+.lightGreenCircle {
+  position: relative;
+  width: calc(236 / 1920 * 100vw);
+  left: calc(200 / 1920 * 100vw);
+  top: calc(-322 / 1920 * 100vw);
+  z-index: 0;
+}
+
+.shops {
+  background-color: var(--light-green);
+}
+
+.shops .bigGreenCircle {
+  width: calc(172 / 1920 * 100vw);
+  top: calc(-20 / 1920 * 100vw);
+  left: calc(66 / 1920 * 100vw);
+}
+
+.arrowsSquare {
+  position: relative;
+  width: calc(353 / 1920 * 100vw);
+  top: calc(-180 / 1920 * 100vw);
+  left: calc(97 / 1920 * 100vw);
+}
+
+.artists {
+  background-color: var(--dark-green);
+}
+
+.artists .lightGreenCircle {
+  top: calc(-100 / 1920 * 100vw);
+  left: calc(230 / 1920 * 100vw);
+  width: calc(282 / 1920 * 100vw);
+}
+
+.greenSnowflake {
+  width: calc(547 / 1920 * 100vw);
+  position: relative;
+  top: calc(-365 / 1920 * 100vw);
+  left: calc(25 / 1920 * 100vw);
+}
+
+.wallPicture {
+  width: calc(532 / 1920 * 100vw);
+  height: calc(377 / 1920 * 100vw);
+  margin-left: calc(197 / 1920 * 100vw);
+}
+
+.aboutTheSpaceText {
+  font-size: calc(50 / 1920 * 100vw);
+  font-family: "ClashGrotesk-Medium";
+  max-width: calc(903 / 1920 * 100vw);
+  margin-left: calc(231 / 1920 * 100vw);
+}
+
+.aboutThePlaceWrapper {
+  display: flex;
+  align-items: center;
+  background-color: var(--dark-green);
+  padding-bottom: calc(85 / 1920 * 100vw);
+}
