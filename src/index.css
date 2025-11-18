@@ -231,6 +231,7 @@ a:active {
   flex-direction: column;
   align-items: center;
   margin-top: calc(110 / 1920 * 100vw);
+  margin-left: calc(20 / 1920 * 100vw);
 }
 
 .weatherSectionImage {
@@ -370,4 +371,88 @@ a:active {
   align-items: center;
   background-color: var(--dark-green);
   padding-bottom: calc(85 / 1920 * 100vw);
+}
+
+.eventCard {
+  background-color: var(--light-green);
+  display: flex;
+  flex-direction: column;
+}
+
+.eventCard.large {
+  max-width: calc(903 / 1920 * 100vw);
+}
+
+.eventCard.large .eventPicture {
+  width: calc(903 / 1920 * 100vw);
+}
+
+.eventCard .eventDescriptionText {
+  margin-left: calc(10 / 1920 * 100vw);
+}
+
+.eventCard .eventHeader {
+  font-family: "Formula Condensed bold";
+  font-size: calc(25 / 1920 * 100vw);
+  margin-top: calc(17 / 1920 * 100vw);
+}
+
+.eventCard .eventDate {
+  font-family: "ClashGrotesk-Medium";
+  min-width: calc(238 / 1920 * 100vw);
+  font-size: calc(15 / 1920 * 100vw);
+  margin-top: calc(11 / 1920 * 100vw);
+  margin-bottom: calc(10 / 1920 * 100vw);
+}
+
+.eventCard .eventDescription {
+  display: flex;
+}
+
+.eventCard button {
+  margin-left: calc(544 / 1920 * 100vw);
+  font-family: "ClashGrotesk-Bold";
+  align-items: center;
+  background-color: transparent;
+  max-height: 28px;
+  margin-right: calc(10 / 1920 * 100vw);
+  border: none;
+  margin-top: calc(15 / 1920 * 100vw);
+  font-size: calc(20 / 1920 * 100vw);
+}
+
+.eventCard button a {
+  display: flex;
+}
+
+.eventCard .arrow {
+  width: calc(30 / 1920 * 100vw);
+  margin-left: calc(15 / 1920 * 100vw);
+}
+
+.eventCard button:hover .arrow {
+  animation: moveBackForward 0.5s linear;
+}
+
+.eventCard button:hover {
+  transform: translateY(-3px);
+  cursor: pointer;
+}
+
+@keyframes moveBackForward {
+  0% {
+    transform: translateX(0);
+  }
+
+  33% {
+    transform: translateX(-5px);
+  }
+
+  66% {
+    transform: translateX(5px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }
