@@ -99,7 +99,7 @@ Header nav {
 }
 .headerWrapper button:hover .headerButtonArrow.black {
   opacity: 1;
-  transform: translateX(11px);
+  transform: translateX(calc(11 / 1920 * 100vw));
 }
 
 .headerWrapper button:active .headerButtonArrow.white {
@@ -379,22 +379,19 @@ a:active {
   flex-direction: column;
 }
 
-.eventCard.large {
-  max-width: calc(903 / 1920 * 100vw);
-}
-
-.eventCard.large .eventPicture {
-  width: calc(903 / 1920 * 100vw);
-}
-
-.eventCard .eventDescriptionText {
-  margin-left: calc(10 / 1920 * 100vw);
+.eventCard .eventPicture {
+  width: 100%;
 }
 
 .eventCard .eventHeader {
   font-family: "Formula Condensed bold";
   font-size: calc(25 / 1920 * 100vw);
   margin-top: calc(17 / 1920 * 100vw);
+  letter-spacing: 0.05em;
+}
+
+.eventCard .eventDescription {
+  margin-left: calc(10 / 1920 * 100vw);
 }
 
 .eventCard .eventDate {
@@ -405,17 +402,17 @@ a:active {
   margin-bottom: calc(10 / 1920 * 100vw);
 }
 
-.eventCard .eventDescription {
+.eventCard .firstRow {
   display: flex;
+  justify-content: space-between;
 }
 
 .eventCard button {
-  margin-left: calc(544 / 1920 * 100vw);
   font-family: "ClashGrotesk-Bold";
+  margin-right: calc(10 / 1920 * 100vw);
   align-items: center;
   background-color: transparent;
   max-height: 28px;
-  margin-right: calc(10 / 1920 * 100vw);
   border: none;
   margin-top: calc(15 / 1920 * 100vw);
   font-size: calc(20 / 1920 * 100vw);
@@ -454,5 +451,151 @@ a:active {
 
   100% {
     transform: translateX(0);
+  }
+}
+.eventsSection {
+  margin-left: calc(50 / 1920 * 100vw);
+  margin-right: calc(50 / 1920 * 100vw);
+  margin-top: calc(180 / 1920 * 100vw);
+}
+
+.eventsContainer {
+  display: grid;
+  column-gap: 15px;
+  row-gap: calc(50 / 1920 * 100vw);
+}
+
+.eventsContainer.large {
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.eventsContainer.mid {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.eventsContainer.small {
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: calc(-50 / 1920 * 100vw);
+  margin-right: calc(-50 / 1920 * 100vw);
+}
+
+.eventCard.large {
+  grid-column: span 6;
+}
+
+.eventCard.mid {
+  grid-column: span 4;
+}
+
+.eventCard.small {
+  grid-column: span 3;
+}
+
+.eventsSectionSign {
+  font-size: calc(20 / 1920 * 100vw);
+  font-family: "ClashGrotesk-Bold";
+}
+
+.eventsSectionHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: calc(35 / 1920 * 100vw);
+}
+
+.eventsSectionHeader .moreButton .moreButtonArrow {
+  max-width: calc(42 / 1920 * 100vw);
+  height: auto;
+  margin-left: calc(20 / 1920 * 100vw);
+  transition: transform 0.5s ease-in-out;
+  transform: translateX(calc(-5 / 1920 * 100vw));
+}
+
+.eventsSectionHeader .moreButton {
+  display: flex;
+  background-color: black;
+  border: 3px solid black;
+  padding: calc(10 / 1920 * 100vw) calc(15 / 1920 * 100vw)
+    calc(10 / 1920 * 100vw) calc(33 / 1920 * 100vw);
+  color: white;
+}
+
+.eventsButtonsDiv {
+  display: flex;
+  gap: calc(10 / 1920 * 100vw);
+}
+
+.eventsButtonsDiv button {
+  font-size: calc(20 / 1920 * 100vw);
+  font-family: "ClashGrotesk-Bold";
+  border-radius: 30px;
+}
+
+.eventsButtonsDiv button:hover {
+  cursor: pointer;
+}
+
+.eventsButtonsDiv button:not(.moreButton) {
+  min-width: calc(138 / 1920 * 100vw);
+  padding: calc(10.5 / 1920 * 100vw) calc(15 / 1920 * 100vw);
+  border: 3px solid #808080;
+  background-color: white;
+  color: #808080;
+}
+
+.eventsButtonsDiv .moreButtonContents {
+  display: flex;
+  align-items: center;
+}
+
+.eventsSectionHeader .moreButton .moreButtonArrow.black {
+  opacity: 0;
+  position: absolute;
+  right: calc(68 / 1920 * 100vw);
+}
+
+.eventsSectionHeader .moreButton:hover {
+  background-color: white;
+  border: 3px solid black;
+  color: black;
+}
+
+.eventsSectionHeader .moreButton:hover .moreButtonArrow.white {
+  opacity: 0;
+  transform: translateX(calc(5 / 1920 * 100vw));
+}
+
+.eventsSectionHeader .moreButton:hover .moreButtonArrow.black {
+  opacity: 1;
+  transform: translateX(calc(5 / 1920 * 100vw));
+}
+
+.eventsSectionHeader .moreButton:active .moreButtonArrow.white {
+  opacity: 1;
+}
+
+.eventsSectionHeader .moreButton:active .moreButtonArrow.black {
+  opacity: 0;
+}
+
+.eventsSectionHeader .moreButton:active {
+  background-color: black;
+  color: white;
+}
+
+.eventsButtonsDiv button.active {
+  border: 3px solid black;
+  color: black;
+}
+
+.eventsContainer .fadeIn {
+  opacity: 0;
+  transform: translateY(10px);
+  animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

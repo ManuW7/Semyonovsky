@@ -1,14 +1,13 @@
 function EventCard(props) {
   return (
-    <>
-      <div className={`eventCard ${props.size}`}>
-        <img src={props.pictureLink} alt="" className="eventPicture" />
-        <div className="eventDescription">
-          <div className="eventDescriptionText">
-            <h3 className="eventHeader">{props.eventName}</h3>
-            <p className="eventDate">{props.eventDate}</p>
-          </div>
-
+    <div
+      className={`eventCard ${props.size} ${props.className || ""}`}
+      style={props.style}
+    >
+      <img src={props.pictureLink} alt="" className="eventPicture" />
+      <div className="eventDescription">
+        <div className="firstRow">
+          <h3 className="eventHeader">{props.eventName}</h3>
           <button className="moreButton">
             <a href={props.eventLink}>
               MORE{" "}
@@ -20,8 +19,9 @@ function EventCard(props) {
             </a>
           </button>
         </div>
+        <p className="eventDate">{props.eventDate}</p>
       </div>
-    </>
+    </div>
   );
 }
 
