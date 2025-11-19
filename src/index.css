@@ -374,13 +374,34 @@ a:active {
 }
 
 .eventCard {
-  background-color: var(--light-green);
   display: flex;
   flex-direction: column;
+  transform: translateY(0);
 }
 
 .eventCard .eventPicture {
   width: 100%;
+  object-fit: cover;
+}
+
+.eventsContainer.large .eventCard.large .eventPicture {
+  height: calc(527 / 1920 * 100vw);
+}
+
+.eventsContainer.large .eventCard.mid .eventPicture {
+  height: calc(343 / 1920 * 100vw);
+}
+
+.eventsContainer.large .eventCard.small .eventPicture {
+  height: calc(258 / 1920 * 100vw);
+}
+
+.eventsContainer.mid .eventCard.small .eventPicture {
+  height: calc(203 / 768 * 100vw);
+}
+
+.eventsContainer.small .eventCard.small .eventPicture {
+  height: calc(202 / 360 * 100vw);
 }
 
 .eventCard .eventHeader {
@@ -407,7 +428,7 @@ a:active {
   justify-content: space-between;
 }
 
-.eventCard button {
+.eventCard .moreButton {
   font-family: "ClashGrotesk-Bold";
   margin-right: calc(10 / 1920 * 100vw);
   align-items: center;
@@ -418,7 +439,7 @@ a:active {
   font-size: calc(20 / 1920 * 100vw);
 }
 
-.eventCard button a {
+.eventCard .moreButton {
   display: flex;
 }
 
@@ -427,13 +448,13 @@ a:active {
   margin-left: calc(15 / 1920 * 100vw);
 }
 
-.eventCard button:hover .arrow {
+.eventCard .moreButton:hover .arrow {
   animation: moveBackForward 0.5s linear;
 }
 
-.eventCard button:hover {
-  transform: translateY(-3px);
+.eventCard .moreButton:hover {
   cursor: pointer;
+  text-decoration: underline;
 }
 
 @keyframes moveBackForward {
@@ -540,6 +561,7 @@ a:active {
   border: 3px solid #808080;
   background-color: white;
   color: #808080;
+  transition: all 0.5s;
 }
 
 .eventsButtonsDiv .moreButtonContents {
@@ -598,4 +620,14 @@ a:active {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+.eventCardInner {
+  transform: translate(0);
+  transition: all 0.5s;
+  background-color: var(--light-green);
+}
+
+.eventCardInner:hover {
+  transform: translateY(-10px);
 }

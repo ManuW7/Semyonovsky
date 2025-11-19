@@ -93,9 +93,9 @@ function EventsCardsSection() {
               style={{ animationDelay: `${index * 120}ms` }}
             ></EventCard>
           ))}
-          {midCards.map((item, index) => (
+          {smallCards.map((item, index) => (
             <EventCard
-              size="mid"
+              size="small"
               key={item.id}
               eventName={item.eventName}
               eventDate={item.eventDate}
@@ -105,9 +105,9 @@ function EventsCardsSection() {
               style={{ animationDelay: `${index * 120}ms` }}
             ></EventCard>
           ))}
-          {smallCards.map((item, index) => (
+          {midCards.map((item, index) => (
             <EventCard
-              size="small"
+              size="mid"
               key={item.id}
               eventName={item.eventName}
               eventDate={item.eventDate}
