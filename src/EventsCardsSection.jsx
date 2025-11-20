@@ -39,9 +39,9 @@ function EventsCardsSection() {
 
   return (
     <>
-      <section className="eventsSection">
+      <section className="eventsSection" id="eventsSection">
         <div className="eventsSectionHeader">
-          <p className="eventsSectionSign">[EVENTS]</p>
+          <p className="sectionHeader">[EVENTS]</p>
           <div className="eventsButtonsDiv">
             <button
               className={`festButton ${filter == "FEST" ? "active" : ""}`}

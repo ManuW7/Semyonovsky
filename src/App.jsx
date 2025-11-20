@@ -5,6 +5,7 @@ import WeatherSection from "./WeatherSection.jsx";
 import PlaceFactsCardsSection from "./PlaceFactsCardsSection.jsx";
 import AboutTheSpaceSection from "./AboutTheSpaceSection.jsx";
 import EventsCardsSection from "./EventsCardsSection.jsx";
+import WhatWeDoSection from "./WhatWeDoSection.jsx";
 import "./assets/fonts/ClashGrotesk_Complete/Fonts/WEB/css/clash-grotesk.css";
 import "./assets/fonts/FormulaCondensed/style.css";
 
@@ -29,6 +30,7 @@ function App() {
       ></MovingLine>
       <AboutTheSpaceSection></AboutTheSpaceSection>
       <EventsCardsSection></EventsCardsSection>
+      <WhatWeDoSection></WhatWeDoSection>
     </>
   );
 }

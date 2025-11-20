@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --light-green: #d5ff79;
   --dark-green: #5cd572;
@@ -405,7 +409,7 @@ a:active {
 }
 
 .eventCard .eventHeader {
-  font-family: "Formula Condensed bold";
+  font-family: "Formula Condensed Bold";
   font-size: calc(25 / 1920 * 100vw);
   margin-top: calc(17 / 1920 * 100vw);
   letter-spacing: 0.05em;
@@ -512,7 +516,7 @@ a:active {
   grid-column: span 3;
 }
 
-.eventsSectionSign {
+.sectionHeader {
   font-size: calc(20 / 1920 * 100vw);
   font-family: "ClashGrotesk-Bold";
 }
@@ -629,5 +633,95 @@ a:active {
 }
 
 .eventCardInner:hover {
-  transform: translateY(-10px);
+  transform: translateY(calc(-15 / 1920 * 100vw));
+}
+
+.whatWeDoCard {
+  background-color: var(--light-green);
+  padding-top: calc(20 / 1920 * 100vw);
+  display: flex;
+  justify-content: space-between;
+  min-height: calc(335 / 1920 * 100vw);
+  border-top: 3px solid var(--dark-green);
+  border-bottom: 3px solid var(--dark-green);
+  transition: background-color 0.5s ease-in-out;
+}
+
+.whatWeDoCard:hover {
+  background-color: var(--dark-green);
+  cursor: pointer;
+}
+
+.whatWeDoCard:active {
+  transition: none;
+  background-color: var(--light-green);
+}
+
+.whatWeDoCard:hover img {
+  animation: moveArrow 0.5s linear;
+}
+
+@keyframes moveArrow {
+  0% {
+    transform: translateX(0);
+  }
+
+  33% {
+    transform: translateX(calc(-15 / 1920 * 100vw));
+  }
+
+  66% {
+    transform: translateX(calc(15 / 1920 * 100vw));
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.whatWeDoCard img {
+  max-width: calc(85 / 1920 * 100vw);
+}
+
+.whatWeDoCard h3 {
+  font-size: calc(30 / 1920 * 100vw);
+  font-family: "Formula Condensed Bold";
+  margin-left: calc(45 / 1920 * 100vw);
+}
+
+.whatWeDoCard div {
+  display: flex;
+  align-items: center;
+  padding-left: calc(50 / 1920 * 100vw);
+  max-height: calc(58 / 1920 * 100vw);
+}
+
+.whatWeDoCard p {
+  max-width: calc(440 / 1920 * 100vw);
+  font-size: calc(20 / 1920 * 100vw);
+  font-family: "ClashGrotesk-Medium";
+  margin-right: calc(50 / 1920 * 100vw);
+}
+
+.whatWeDoSection {
+  margin-top: calc(160 / 1920 * 100vw);
+  position: relative;
+}
+
+.whatWeDoSection .middle {
+  border: none;
+}
+
+.sectionPicture {
+  width: calc(474 / 1920 * 100vw);
+  height: calc(804 / 1920 * 100vw);
+  object-fit: cover;
+  position: absolute;
+  top: calc(180 / 1920 * 100vw);
+  left: calc(723 / 1920 * 100vw);
+}
+
+.whatWeDoSection .sectionHeader {
+  margin-left: calc(50 / 1920 * 100vw);
+  margin-bottom: calc(60 / 1920 * 100vw);
 }

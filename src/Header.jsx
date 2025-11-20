@@ -9,7 +9,7 @@ function Header() {
           <nav>
             <ul>
               <li>
-                <a href="">EVENTS</a>
+                <a href="#eventsSection">EVENTS</a>
               </li>
               <li>
                 <a href="">RESIDENTS</a>
