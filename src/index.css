@@ -613,7 +613,7 @@ a:active {
   color: black;
 }
 
-.eventsContainer .fadeIn {
+.fadeIn {
   opacity: 0;
   transform: translateY(10px);
   animation: fadeIn 1s ease forwards;
@@ -724,4 +724,108 @@ a:active {
 .whatWeDoSection .sectionHeader {
   margin-left: calc(50 / 1920 * 100vw);
   margin-bottom: calc(60 / 1920 * 100vw);
+}
+
+.residentsSection {
+  padding: 0 calc(50 / 1920 * 100vw);
+  margin-top: calc(55 / 1920 * 100vw);
+}
+
+.residentsHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.residentsHeader a {
+  text-decoration: none;
+  border: 3px solid black;
+  padding: calc(11 / 1920 * 100vw) calc(41 / 1920 * 100vw);
+  font-size: calc(20 / 1920 * 100vw);
+  font-family: "ClashGrotesk-Bold";
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+
+.residentsHeader a:hover {
+  background-color: black;
+  color: white;
+}
+
+.residents {
+  margin-top: calc(40 / 1920 * 100vw);
+  display: flex;
+}
+
+.residents img {
+  max-width: calc(444 / 1920 * 100vw);
+}
+
+.resident {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: calc(3 / 1920 * 100vw) solid black;
+  border-bottom: calc(3 / 1920 * 100vw) solid black;
+  height: calc(47 / 1920 * 100vw);
+  padding-left: calc(6 / 1920 * 100vw);
+  transition: all 0.5s;
+}
+
+.resident:not(:first-child) {
+  border-top: none;
+}
+
+.resident:hover {
+  background-color: var(--light-green);
+}
+
+.resident a {
+  display: flex;
+  align-items: center;
+  font-size: calc(20 / 1920 * 100vw);
+  font-family: "ClashGrotesk-Bold";
+}
+
+.resident:hover a img {
+  animation: moveArrowLittle 0.3s linear;
+}
+
+.resident img {
+  max-width: calc(29 / 1920 * 100vw);
+  margin-left: calc(18 / 1920 * 100vw);
+}
+
+.residentArea {
+  font-family: "Formula Condensed Light";
+  font-size: calc(23 / 1920 * 100vw);
+}
+
+.residentDescription {
+  font-family: "ClashGrotesk-Medium";
+  font-size: calc(15 / 1920 * 100vw);
+}
+
+.residentName {
+  font-family: "Formula Condensed Bold";
+  font-size: calc(23 / 1920 * 100vw);
+}
+
+.residentsContainer {
+  width: 100%;
+  margin-left: calc(15 / 1920 * 100vw);
+}
+
+@keyframes moveArrowLittle {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(calc(-15 / 1920 * 100vw));
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }

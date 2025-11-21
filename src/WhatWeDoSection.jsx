@@ -16,8 +16,6 @@ function WhatWeDoSection() {
 
   pictureUrl = pictures[hoveredCard];
 
-  console.log(pictureUrl);
-
   return (
     <section className="whatWeDoSection">
       <h3 className="sectionHeader">[WHAT WE DO]</h3>
