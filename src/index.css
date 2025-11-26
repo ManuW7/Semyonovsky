@@ -849,3 +849,57 @@ a:active {
 .mapSection .sectionHeader {
   margin-left: calc(50 / 1920 * 100vw);
 }
+
+.partners {
+  background-image: url(./src/assets/graphic_assets/partnersBackground.png);
+  border: 1px solid transparent;
+  background-size: 100% auto;
+}
+
+.partnerItem img {
+  max-width: calc(161 / 1920 * 100vw);
+  margin-right: calc(19 / 1920 * 100vw);
+}
+
+.partnerItem {
+  display: flex;
+  width: calc(852 / 1920 * 100vw);
+  justify-content: space-between;
+  align-items: center;
+  margin-left: calc(60 / 1920 * 100vw);
+  margin-bottom: calc(20 / 1920 * 100vw);
+}
+
+.partnerItem .header {
+  font-size: calc(107 / 1920 * 100vw);
+  font-family: "Formula Condensed Bold";
+  display: inline;
+  margin-bottom: calc(-20 / 1920 * 100vw);
+}
+
+.partnerItem .description {
+  font-size: calc(23 / 1920 * 100vw);
+  font-family: "Formula Condensed Light";
+  max-width: calc(348 / 1920 * 100vw);
+}
+
+.partnerItem p,
+.partnerItem img {
+  flex: 1;
+}
+
+.partnersSection h3 {
+  margin-left: calc(50 / 1920 * 100vw);
+  margin-bottom: calc(15 / 1920 * 100vw);
+}
+
+.partnersContainer {
+  margin-top: calc(40 / 1920 * 100vw);
+  margin-left: calc(50 / 1920 * 100vw);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.partnerItem:hover img {
+  animation: moveArrow 0.5s linear;
+}
