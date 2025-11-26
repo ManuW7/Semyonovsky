@@ -14,13 +14,13 @@ function ResidentsSection() {
   }
 
   return (
-    <section className="residentsSection">
+    <section className="residentsSection" id="residentsSection">
       <div className="residentsHeader">
         <h3 className="sectionHeader">[RESIDENTS]</h3>
         <a href="#">MORE</a>
       </div>
       <div className="residents">
-        <img src={currentImage} alt="" />
+        <img src={currentImage} alt="" className="residencePicture" />
         <div className="residentsContainer">
           {res.map((item, index) => (
             <Resident
@@ -32,6 +32,7 @@ function ResidentsSection() {
               onMouseOver={() => handleHover(item)}
               className="fadeIn"
               style={{ animationDelay: `${(index + 1) * 120}ms` }}
+              link={item.link}
             ></Resident>
           ))}
         </div>

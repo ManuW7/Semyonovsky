@@ -757,19 +757,31 @@ a:active {
   display: flex;
 }
 
-.residents img {
-  max-width: calc(444 / 1920 * 100vw);
+.residencePicture {
+  min-width: calc(444 / 1920 * 100vw);
+  height: calc(293 / 1920 * 100vw);
+  object-fit: cover;
 }
 
 .resident {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   border-top: calc(3 / 1920 * 100vw) solid black;
   border-bottom: calc(3 / 1920 * 100vw) solid black;
   height: calc(47 / 1920 * 100vw);
   padding-left: calc(6 / 1920 * 100vw);
   transition: all 0.5s;
+}
+
+.residentName,
+.residentDescription,
+.residentArea {
+  flex: 1; /* все элементы растягиваются на доступную ширину */
+}
+
+.residentArea {
+  margin-left: calc(120 / 1920 * 100vw);
 }
 
 .resident:not(:first-child) {
@@ -828,4 +840,12 @@ a:active {
   100% {
     transform: translateX(0);
   }
+}
+
+.mapSection {
+  margin-top: calc(100 / 1920 * 100vw);
+}
+
+.mapSection .sectionHeader {
+  margin-left: calc(50 / 1920 * 100vw);
 }
