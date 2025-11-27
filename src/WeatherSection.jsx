@@ -10,37 +10,43 @@ function WeatherSection(props) {
     48: { text: "freezing foggy", icon: null },
     51: {
       text: "lightly drizzling",
-      icon: "./src/assets/graphic_assets/rainIcon.png",
+      icon: "/Semyonovsky/assets/graphic_assets/rainIcon.png",
     },
-    53: { text: "drizzling", icon: "./src/assets/graphic_assets/rainIcon.png" },
+    53: {
+      text: "drizzling",
+      icon: "/Semyonovsky/assets/graphic_assets/rainIcon.png",
+    },
     55: {
       text: "heavily drizzling",
-      icon: "./src/assets/graphic_assets/rainIcon.png",
+      icon: "/Semyonovsky/assets/graphic_assets/rainIcon.png",
     },
     56: {
       text: "light freezing drizzle",
-      icon: "./src/assets/graphic_assets/rainIcon.png",
+      icon: "/Semyonovsky/assets/graphic_assets/rainIcon.png",
     },
     57: {
       text: "dense freezing drizzle",
-      icon: "./src/assets/graphic_assets/rainIcon.png",
+      icon: "/Semyonovsky/assets/graphic_assets/rainIcon.png",
     },
     61: {
       text: "lightly raining",
-      icon: "./src/assets/graphic_assets/rainIcon.png",
+      icon: "/Semyonovsky/assets/graphic_assets/rainIcon.png",
     },
-    63: { text: "rainy", icon: "./src/assets/graphic_assets/rainIcon.png" },
+    63: {
+      text: "rainy",
+      icon: "/Semyonovsky/assets/graphic_assets/rainIcon.png",
+    },
     65: {
       text: "heavily raining",
-      icon: "./src/assets/graphic_assets/rainIcon.png",
+      icon: "/Semyonovsky/assets/graphic_assets/rainIcon.png",
     },
     66: {
       text: "light freezing rain",
-      icon: "./src/assets/graphic_assets/rainIcon.png",
+      icon: "/Semyonovsky/assets/graphic_assets/rainIcon.png",
     },
     67: {
       text: "heavy freezing rain",
-      icon: "./src/assets/graphic_assets/rainIcon.png",
+      icon: "/Semyonovsky/assets/graphic_assets/rainIcon.png",
     },
     71: { text: "lightly snowing", icon: null },
     73: { text: "snowy", icon: null },
@@ -48,15 +54,15 @@ function WeatherSection(props) {
     77: { text: "snowy (grains)", icon: null },
     80: {
       text: "light rain showers",
-      icon: "./src/assets/graphic_assets/rainIcon.png",
+      icon: "/Semyonovsky/assets/graphic_assets/rainIcon.png",
     },
     81: {
       text: "rain showers",
-      icon: "./src/assets/graphic_assets/rainIcon.png",
+      icon: "/Semyonovsky/assets/graphic_assets/rainIcon.png",
     },
     82: {
       text: "violent rain showers",
-      icon: "./src/assets/graphic_assets/rainIcon.png",
+      icon: "/Semyonovsky/assets/graphic_assets/rainIcon.png",
     },
     85: { text: "snow showers", icon: null },
     86: { text: "heavy snow showers", icon: null },

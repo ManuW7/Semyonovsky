@@ -77,7 +77,7 @@ export const events = [
     eventDate:
       "DECEMBER 1-30, OPENING ON THE FIRST DAY OF THE MONTH AT 5:00 PM",
     pictureLink:
-      "/Semyonovsky/assets/graphic_assets/NaturePhotographyExhibition.png",
+      "/Semyonovsky/assets/graphic_assets/EventsPictures/NaturePhotographyExhibition.png",
     eventLink: "https://github.com/ManuW7/Semyonovsky",
     type: "EXHIBITION",
   },
