@@ -114,13 +114,13 @@ function WeatherSection(props) {
         <div className="weatherImagesWrapper">
           <img src={iconURL} alt="" className="weatherIcon" />
           <img
-            src="./src/assets/graphic_assets/eyesIcon.png"
+            src="/Semyonovsky/assets/graphic_assets/eyesIcon.png"
             alt=""
             className="eyesIcon"
           />
         </div>
         <img
-          src="./src/assets/graphic_assets/weatherSectionPicture.png"
+          src="/Semyonovsky/assets/graphic_assets/weatherSectionPicture.png"
           alt=""
           className="weatherSectionImage"
         />

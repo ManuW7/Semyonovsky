@@ -10,7 +10,8 @@ function Resident(props) {
       <p className="residentArea">{props.area}</p>
 
       <a href={props.link}>
-        ABOUT <img src="src/assets/graphic_assets/arrow_black.png" alt="" />
+        ABOUT{" "}
+        <img src="/Semyonovsky/assets/graphic_assets/arrow_black.png" alt="" />
       </a>
     </div>
   );
