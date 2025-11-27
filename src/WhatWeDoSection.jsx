@@ -3,11 +3,11 @@ import WhatWeDoPart from "./WhatWeDoPart";
 
 function WhatWeDoSection() {
   const [hoveredCard, setHoveredCard] = useState("events");
-  let pictureUrl = "./src/assets/graphic_assets/WhatWeDoEvents.png";
+  let pictureUrl = "/Semyonovsky/assets/graphic_assets/WhatWeDoEvents.png";
   const pictures = {
-    events: "./src/assets/graphic_assets/WhatWeDoEvents.png",
-    residents: "./src/assets/graphic_assets/WhatWeDoResidents.png",
-    partners: "./src/assets/graphic_assets/WhatWeDoPartners.png",
+    events: "/Semyonovsky/assets/graphic_assets/WhatWeDoEvents.png",
+    residents: "/Semyonovsky/assets/graphic_assets/WhatWeDoResidents.png",
+    partners: "/Semyonovsky/assets/graphic_assets/WhatWeDoPartners.png",
   };
 
   function handleHover(card) {

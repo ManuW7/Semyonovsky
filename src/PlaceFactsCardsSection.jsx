@@ -12,12 +12,12 @@ function PlaceFactsCardsSection() {
               </div>
             </div>
             <img
-              src="./src/assets/graphic_assets/greenCircle.png"
+              src="/Semyonovsky/assets/graphic_assets/greenCircle.png"
               alt="greenCircle"
               className="bigGreenCircle"
             />
             <img
-              src="./src/assets/graphic_assets/circleGraphPicture.png"
+              src="/Semyonovsky/assets/graphic_assets/circleGraphPicture.png"
               alt=""
               className="circleGraphPicture"
             />
@@ -31,12 +31,12 @@ function PlaceFactsCardsSection() {
               </div>
             </div>
             <img
-              src="./src/assets/graphic_assets/greenThingForSecondCard.png"
+              src="/Semyonovsky/assets/graphic_assets/greenThingForSecondCard.png"
               alt=""
               className="greenThingy"
             />
             <img
-              src="./src/assets/graphic_assets/lightGreenCircle.png"
+              src="/Semyonovsky/assets/graphic_assets/lightGreenCircle.png"
               alt=""
               className="lightGreenCircle"
             />
@@ -50,12 +50,12 @@ function PlaceFactsCardsSection() {
               </div>
             </div>
             <img
-              src="./src/assets/graphic_assets/greenCircle.png"
+              src="/Semyonovsky/assets/graphic_assets/greenCircle.png"
               alt="greenCircle"
               className="bigGreenCircle"
             />
             <img
-              src="./src/assets/graphic_assets/greenArrowsSquare.png"
+              src="/Semyonovsky/assets/graphic_assets/greenArrowsSquare.png"
               alt=""
               className="arrowsSquare"
             />
@@ -69,12 +69,12 @@ function PlaceFactsCardsSection() {
               </div>
             </div>
             <img
-              src="./src/assets/graphic_assets/lightGreenCircle.png"
+              src="/Semyonovsky/assets/graphic_assets/lightGreenCircle.png"
               alt=""
               className="lightGreenCircle"
             />
             <img
-              src="src/assets/graphic_assets/greenSnowflake.png"
+              src="/Semyonovsky/assets/graphic_assets/greenSnowflake.png"
               alt=""
               className="greenSnowflake"
             />
