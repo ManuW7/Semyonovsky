@@ -854,6 +854,7 @@ a:active {
   background-image: url(./src/assets/graphic_assets/partnersBackground.png);
   border: 1px solid transparent;
   background-size: 100% auto;
+  padding-bottom: calc(55 / 1920 * 100vw);
 }
 
 .partnerItem img {
@@ -902,4 +903,80 @@ a:active {
 
 .partnerItem:hover img {
   animation: moveArrow 0.5s linear;
+}
+
+.questionsSection {
+  background-color: var(--light-green);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative;
+}
+
+.questionsSection h2 {
+  font-size: calc(130 / 1920 * 100vw);
+  font-family: "Formula Condensed Bold";
+  text-align: center;
+  max-width: calc(1080 / 1920 * 100vw);
+  margin-top: calc(60 / 1920 * 100vw);
+  line-height: 0.9;
+}
+
+.questionsSection p {
+  font-size: calc(50 / 1920 * 100vw);
+  font-family: "Formula Condensed Light";
+  margin-top: calc(31 / 1920 * 100vw);
+}
+
+.questionsSection .letterIcon {
+  width: calc(72 / 1920 * 100vw);
+}
+
+.questionsSection .telegramIcon {
+  width: calc(60 / 1920 * 100vw);
+  margin-left: calc(16 / 1920 * 100vw);
+  margin-top: calc(5 / 1920 * 100vw);
+}
+
+.questionsSection .iconsDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: calc(30 / 1920 * 100vw);
+  margin-bottom: calc(235 / 1920 * 100vw);
+}
+
+.questionMark {
+  position: absolute;
+  max-width: calc(91 / 1920 * 100vw);
+  top: calc(350 / 1920 * 100vw);
+  left: calc(206 / 1920 * 100vw);
+}
+
+.arrowLogo {
+  position: absolute;
+  max-width: calc(166 / 1920 * 100vw);
+  left: calc(395 / 1920 * 100vw);
+  top: calc(480 / 1920 * 100vw);
+}
+
+.listPicture {
+  position: absolute;
+  max-width: calc(348 / 1920 * 100vw);
+  left: calc(1060 / 1920 * 100vw);
+  top: calc(480 / 1920 * 100vw);
+}
+
+.questionsSection .greenThingy {
+  position: absolute;
+  max-width: calc(155 / 1920 * 100vw);
+  left: calc(1500 / 1920 * 100vw);
+  top: calc(330 / 1920 * 100vw);
+}
+
+.BIRD {
+  position: absolute;
+  max-width: calc(131 / 1920 * 100vw);
+  left: calc(1500 / 1920 * 100vw);
+  top: calc(150 / 1920 * 100vw);
 }

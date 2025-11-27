@@ -20,7 +20,7 @@ function ResidentsSection() {
         <a href="#">MORE</a>
       </div>
       <div className="residents">
-        <img src={currentImage} alt="" className="residencePicture" />
+        <img src={currentImage} alt="" className="residencePicture " />
         <div className="residentsContainer">
           {res.map((item, index) => (
             <Resident

@@ -9,6 +9,7 @@ import WhatWeDoSection from "./WhatWeDoSection.jsx";
 import ResidentsSection from "./ResidentsSection.jsx";
 import MapSection from "./MapSection.jsx";
 import PartnersSection from "./PartnersSection.jsx";
+import QuestionSection from "./QestionsSection.jsx";
 import "./assets/fonts/ClashGrotesk_Complete/Fonts/WEB/css/clash-grotesk.css";
 import "./assets/fonts/FormulaCondensed/style.css";
 
@@ -37,6 +38,11 @@ function App() {
       <ResidentsSection></ResidentsSection>
       <MapSection></MapSection>
       <PartnersSection></PartnersSection>
+      <QuestionSection></QuestionSection>
+      <MovingLine
+        movingLineImage="./src/assets/graphic_assets/movingLine.png"
+        padding="5px"
+      ></MovingLine>
     </>
   );
 }
