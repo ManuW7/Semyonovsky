@@ -19,7 +19,7 @@ function App() {
       <Header id="header"></Header>
       <TopSection></TopSection>
       <MovingLine
-        movingLineImage="./src/assets/graphic_assets/movingLine.png"
+        movingLineImage="/Semyonovsky/assets/graphic_assets/movingLine.png"
         padding="5px"
       ></MovingLine>
       <WeatherSection
@@ -28,7 +28,7 @@ function App() {
       ></WeatherSection>
       <PlaceFactsCardsSection></PlaceFactsCardsSection>
       <MovingLine
-        movingLineImage="src/assets/graphic_assets/movingLine2.png"
+        movingLineImage="/Semyonovsky/assets/graphic_assets/movingLine2.png"
         backgroundColor="#5CD572"
         padding="10px"
       ></MovingLine>
@@ -40,7 +40,7 @@ function App() {
       <PartnersSection></PartnersSection>
       <QuestionSection></QuestionSection>
       <MovingLine
-        movingLineImage="./src/assets/graphic_assets/movingLine.png"
+        movingLineImage="/Semyonovsky/assets/graphic_assets/movingLine.png"
         padding="5px"
       ></MovingLine>
     </>
