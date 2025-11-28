@@ -12,7 +12,7 @@ function EventCard(props) {
             <a href={props.eventLink} className="moreButton">
               MORE{" "}
               <img
-                src="/Semyonovsky/assets/graphic_assets/arrow_black.png"
+                src="/Semyonovsky/assets/graphic_assets_webp/arrow_black.webp"
                 alt=""
                 className="arrow black"
               />

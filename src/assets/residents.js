@@ -4,7 +4,7 @@ export const residents = [
     description: "Cozy coffee spot, artisan brews",
     area: "Area 1",
     imageUrl:
-      "/Semyonovsky/assets/graphic_assets/ResidentsPictures/ArtisanCafe.png",
+      "/Semyonovsky/assets/graphic_assets_webp/ResidentsPictures/ArtisanCafe.webp",
     link: "https://github.com/ManuW7?tab=repositories",
   },
   {
@@ -12,70 +12,79 @@ export const residents = [
     description: "Contemporary art exhibitions",
     area: "Area 2",
     imageUrl:
-      "/Semyonovsky/assets/graphic_assets/ResidentsPictures/ArtisanCafe.png",
+      "/Semyonovsky/assets/graphic_assets_webp/ResidentsPictures/ArtisanCafe.webp",
     link: "https://github.com/ManuW7?tab=repositories",
   },
   {
     name: "Design studio X",
     description: "Innovative product designs, Design studio",
     area: "Area 2",
-    imageUrl: "/Semyonovsky/assets/graphic_assets/ResidentsPictures/test.jpg",
+    imageUrl:
+      "/Semyonovsky/assets/graphic_assets_webp/ResidentsPictures/test.webp",
     link: "https://github.com/ManuW7?tab=repositories",
   },
   {
     name: "Craft & Co.",
     description: "Handmade crafts and goods, Shop",
     area: "Area 1",
-    imageUrl: "/Semyonovsky/assets/graphic_assets/ResidentsPictures/test.jpg",
+    imageUrl:
+      "/Semyonovsky/assets/graphic_assets_webp/ResidentsPictures/test.webp",
     link: "https://github.com/ManuW7?tab=repositories",
   },
   {
     name: "The Book Nook",
     description: "Curated art books, Bookstore",
     area: "Area 5",
-    imageUrl: "/Semyonovsky/assets/graphic_assets/ResidentsPictures/test.jpg",
+    imageUrl:
+      "/Semyonovsky/assets/graphic_assets_webp/ResidentsPictures/test.webp",
     link: "https://github.com/ManuW7?tab=repositories",
   },
   {
     name: "Vintage Vibes",
     description: "Retro clothing and accessories, Boutique",
     area: "Area 1",
-    imageUrl: "/Semyonovsky/assets/graphic_assets/ResidentsPictures/test.jpg",
+    imageUrl:
+      "/Semyonovsky/assets/graphic_assets_webp/ResidentsPictures/test.webp",
     link: "https://github.com/ManuW7?tab=repositories",
   },
   {
     name: "Sculpture Garden",
     description: "Outdoor art installations, Exhibition space",
     area: "Area 1",
-    imageUrl: "/Semyonovsky/assets/graphic_assets/ResidentsPictures/test.jpg",
+    imageUrl:
+      "/Semyonovsky/assets/graphic_assets_webp/ResidentsPictures/test.webp",
     link: "https://github.com/ManuW7?tab=repositories",
   },
   {
     name: "Culinary Lab",
     description: "Cooking classes and workshops, Culinary space",
     area: "Area 2",
-    imageUrl: "/Semyonovsky/assets/graphic_assets/ResidentsPictures/test.jpg",
+    imageUrl:
+      "/Semyonovsky/assets/graphic_assets_webp/ResidentsPictures/test.webp",
     link: "https://github.com/ManuW7?tab=repositories",
   },
   {
     name: "Music Hub",
     description: "Live performances and events, Venue",
     area: "Area 1",
-    imageUrl: "/Semyonovsky/assets/graphic_assets/ResidentsPictures/test.jpg",
+    imageUrl:
+      "/Semyonovsky/assets/graphic_assets_webp/ResidentsPictures/test.webp",
     link: "https://github.com/ManuW7?tab=repositories",
   },
   {
     name: "Wellness Studio",
     description: "Yoga and meditation classes, Wellness center",
     area: "Area H1",
-    imageUrl: "/Semyonovsky/assets/graphic_assets/ResidentsPictures/test.jpg",
+    imageUrl:
+      "/Semyonovsky/assets/graphic_assets_webp/ResidentsPictures/test.webp",
     link: "https://github.com/ManuW7?tab=repositories",
   },
   {
     name: "Kids' Art Corner",
     description: "Creative workshops for children, Activity space",
     area: "Area 1",
-    imageUrl: "/Semyonovsky/assets/graphic_assets/ResidentsPictures/test.jpg",
+    imageUrl:
+      "/Semyonovsky/assets/graphic_assets_webp/ResidentsPictures/test.webp",
     link: "https://github.com/ManuW7?tab=repositories",
   },
   {

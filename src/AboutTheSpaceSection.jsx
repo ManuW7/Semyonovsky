@@ -3,7 +3,7 @@ function AboutTheSpaceSection() {
     <>
       <div className="aboutThePlaceWrapper">
         <img
-          src="/Semyonovsky/assets/graphic_assets/wallPicture.png"
+          src="/Semyonovsky/assets/graphic_assets_webp/wallPicture.webp"
           alt=""
           className="wallPicture"
         />

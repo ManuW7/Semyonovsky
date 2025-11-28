@@ -4,7 +4,7 @@ import Resident from "./Resident";
 
 function ResidentsSection() {
   const [currentImage, setCurrentImage] = useState(
-    "/Semyonovsky/assets/graphic_assets/ResidentsPictures/ArtisanCafe.png"
+    "/Semyonovsky/assets/graphic_assets_webp/ResidentsPictures/ArtisanCafe.webp"
   );
 
   const res = residents.slice(0, 12);

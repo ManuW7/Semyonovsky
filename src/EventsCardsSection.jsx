@@ -67,12 +67,12 @@ function EventsCardsSection() {
               <div className="moreButtonContents">
                 <p>MORE</p>
                 <img
-                  src="/Semyonovsky/assets/graphic_assets/arrow.png"
+                  src="/Semyonovsky/assets/graphic_assets_webp/arrow.webp"
                   alt=""
                   className="moreButtonArrow white"
                 />
                 <img
-                  src="/Semyonovsky/assets/graphic_assets/arrow_black.png"
+                  src="/Semyonovsky/assets/graphic_assets_webp/arrow_black.webp"
                   alt=""
                   className="moreButtonArrow black"
                 />

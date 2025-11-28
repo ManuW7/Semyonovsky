@@ -13,12 +13,12 @@ function TopSection() {
           </div>
         </div>
         <img
-          src="/Semyonovsky/assets/graphic_assets/topSectionSticker1.png"
+          src="/Semyonovsky/assets/graphic_assets_webp/topSectionSticker1.webp"
           alt="sticker"
           className="spaceSticker"
         />
         <img
-          src="/Semyonovsky/assets/graphic_assets/topSectionSticker2.png"
+          src="/Semyonovsky/assets/graphic_assets_webp/topSectionSticker2.webp"
           alt="sticker"
           className="artistsSticker"
         />

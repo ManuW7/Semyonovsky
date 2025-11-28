@@ -29,12 +29,12 @@ function Header() {
             <div className="headerButtonDiv">
               <p className="headerButtonText">CONTACT US</p>
               <img
-                src="/Semyonovsky/assets/graphic_assets/arrow.png"
+                src="/Semyonovsky/assets/graphic_assets_webp/arrow.webp"
                 alt=""
                 className="headerButtonArrow white"
               />
               <img
-                src="/Semyonovsky/assets/graphic_assets/arrow_black.png"
+                src="/Semyonovsky/assets/graphic_assets_webp/arrow_black.webp"
                 alt=""
                 className="headerButtonArrow black"
               />

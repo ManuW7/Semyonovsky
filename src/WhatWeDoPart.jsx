@@ -7,7 +7,7 @@ function WhatWeDoPart(props) {
       >
         <div>
           <img
-            src="/Semyonovsky/assets/graphic_assets/arrow_black.png"
+            src="/Semyonovsky/assets/graphic_assets_webp/arrow_black.webp"
             alt=""
           />
           <h3>{props.header}</h3>

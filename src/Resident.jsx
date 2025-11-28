@@ -11,7 +11,10 @@ function Resident(props) {
 
       <a href={props.link}>
         ABOUT{" "}
-        <img src="/Semyonovsky/assets/graphic_assets/arrow_black.png" alt="" />
+        <img
+          src="/Semyonovsky/assets/graphic_assets_webp/arrow_black.webp"
+          alt=""
+        />
       </a>
     </div>
   );

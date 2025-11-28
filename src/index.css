@@ -123,7 +123,7 @@ a:active {
 }
 
 .topSectionWrapper {
-  background-image: url("/Semyonovsky/assets/graphic_assets/main_page_background.png");
+  background-image: url("/Semyonovsky/assets/graphic_assets_webp/main_page_background.webp");
   padding-top: calc(135 / 1920 * 100vw);
   background-size: cover;
   display: flex;
@@ -851,7 +851,7 @@ a:active {
 }
 
 .partners {
-  background-image: url("/Semyonovsky/assets/graphic_assets/partnersBackground.png");
+  background-image: url("/Semyonovsky/assets/graphic_assets_webp/partnersBackground.webp");
   border: 1px solid transparent;
   background-size: 100% auto;
   padding-bottom: calc(55 / 1920 * 100vw);

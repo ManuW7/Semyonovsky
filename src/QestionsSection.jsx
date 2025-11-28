@@ -6,41 +6,41 @@ function QuestionSection() {
       <div className="iconsDiv">
         <a href="#">
           <img
-            src="/Semyonovsky/assets/graphic_assets/letterIcon.png"
+            src="/Semyonovsky/assets/graphic_assets_webp/letterIcon.webp"
             alt=""
             className="letterIcon"
           />
         </a>
         <a href="#">
           <img
-            src="/Semyonovsky/assets/graphic_assets/telegramIcon.png"
+            src="/Semyonovsky/assets/graphic_assets_webp/telegramIcon.webp"
             alt=""
             className="telegramIcon"
           />
         </a>
       </div>
       <img
-        src="/Semyonovsky/assets/graphic_assets/questionMark.png"
+        src="/Semyonovsky/assets/graphic_assets_webp/questionMark.webp"
         alt=""
         className="questionMark"
       />
       <img
-        src="/Semyonovsky/assets/graphic_assets/picture.png"
+        src="/Semyonovsky/assets/graphic_assets_webp/picture.webp"
         alt=""
         className="arrowLogo"
       />
       <img
-        src="/Semyonovsky/assets/graphic_assets/listPicture.png"
+        src="/Semyonovsky/assets/graphic_assets_webp/listPicture.webp"
         alt=""
         className="listPicture"
       />
       <img
-        src="/Semyonovsky/assets/graphic_assets/GreenThigyPicture.png"
+        src="/Semyonovsky/assets/graphic_assets_webp/GreenThigyPicture.webp"
         alt=""
         className="greenThingy"
       />
       <img
-        src="/Semyonovsky/assets/graphic_assets/BIRD.png"
+        src="/Semyonovsky/assets/graphic_assets_webp/BIRD.webp"
         alt=""
         className="BIRD"
       />

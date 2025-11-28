@@ -12,12 +12,12 @@ function PlaceFactsCardsSection() {
               </div>
             </div>
             <img
-              src="/Semyonovsky/assets/graphic_assets/greenCircle.png"
+              src="/Semyonovsky/assets/graphic_assets_webp/greenCircle.webp"
               alt="greenCircle"
               className="bigGreenCircle"
             />
             <img
-              src="/Semyonovsky/assets/graphic_assets/circleGraphPicture.png"
+              src="/Semyonovsky/assets/graphic_assets_webp/circleGraphPicture.webp"
               alt=""
               className="circleGraphPicture"
             />
@@ -31,12 +31,12 @@ function PlaceFactsCardsSection() {
               </div>
             </div>
             <img
-              src="/Semyonovsky/assets/graphic_assets/greenThingForSecondCard.png"
+              src="/Semyonovsky/assets/graphic_assets_webp/greenThingForSecondCard.webp"
               alt=""
               className="greenThingy"
             />
             <img
-              src="/Semyonovsky/assets/graphic_assets/lightGreenCircle.png"
+              src="/Semyonovsky/assets/graphic_assets_webp/lightGreenCircle.webp"
               alt=""
               className="lightGreenCircle"
             />
@@ -50,12 +50,12 @@ function PlaceFactsCardsSection() {
               </div>
             </div>
             <img
-              src="/Semyonovsky/assets/graphic_assets/greenCircle.png"
+              src="/Semyonovsky/assets/graphic_assets_webp/greenCircle.webp"
               alt="greenCircle"
               className="bigGreenCircle"
             />
             <img
-              src="/Semyonovsky/assets/graphic_assets/greenArrowsSquare.png"
+              src="/Semyonovsky/assets/graphic_assets_webp/greenArrowsSquare.webp"
               alt=""
               className="arrowsSquare"
             />
@@ -69,12 +69,12 @@ function PlaceFactsCardsSection() {
               </div>
             </div>
             <img
-              src="/Semyonovsky/assets/graphic_assets/lightGreenCircle.png"
+              src="/Semyonovsky/assets/graphic_assets_webp/lightGreenCircle.webp"
               alt=""
               className="lightGreenCircle"
             />
             <img
-              src="/Semyonovsky/assets/graphic_assets/greenSnowflake.png"
+              src="/Semyonovsky/assets/graphic_assets_webp/greenSnowflake.webp"
               alt=""
               className="greenSnowflake"
             />
