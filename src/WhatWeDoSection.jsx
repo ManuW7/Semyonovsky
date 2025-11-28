@@ -7,7 +7,7 @@ function WhatWeDoSection() {
   const pictures = {
     events: "/Semyonovsky/assets/graphic_assets/WhatWeDoEvents.png",
     residents: "/Semyonovsky/assets/graphic_assets/WhatWeDoResidents.png",
-    partners: "/Semyonovsky/assets/graphic_assets/WhatWeDoPartners.png",
+    partners: "/Semyonovsky/assets/graphic_assets/WhatWeDoPartners.webp",
   };
 
   function handleHover(card) {
