@@ -15,13 +15,10 @@ function Header() {
                 <a href="#residentsSection">RESIDENTS</a>
               </li>
               <li>
-                <a href="">ABOUT US</a>
+                <a href="#whatWeDoSection">ABOUT US</a>
               </li>
               <li>
-                <a href="">MAP</a>
-              </li>
-              <li>
-                <a href="">CONTACT</a>
+                <a href="#mapSection">MAP</a>
               </li>
             </ul>
           </nav>

@@ -18,7 +18,7 @@ function WhatWeDoSection() {
   pictureUrl = pictures[hoveredCard];
 
   return (
-    <section className="whatWeDoSection">
+    <section className="whatWeDoSection" id="whatWeDoSection">
       <h3 className="sectionHeader">[WHAT WE DO]</h3>
       <WhatWeDoPart
         header="EVENTS"

@@ -1041,3 +1041,21 @@ a:active {
   left: calc(1444 / 1920 * 100vw);
   top: calc(417 / 1920 * 100vw);
 }
+
+.arrowUpToStart {
+  max-width: calc(30 / 1920 * 100vw);
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  z-index: 3;
+  opacity: 0;
+  transform: translateY(10px);
+  pointer-events: none;
+  transition: opacity 0.5s ease, transform 0.3s ease;
+}
+
+.arrowUpToStart.visible {
+  opacity: 0.5;
+  transform: translateY(0);
+  pointer-events: auto;
+}

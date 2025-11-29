@@ -1,6 +1,6 @@
 function MapSection() {
   return (
-    <section className="mapSection">
+    <section className="mapSection" id="mapSection">
       <div>
         <h3 className="sectionHeader">[MAP]</h3>
       </div>

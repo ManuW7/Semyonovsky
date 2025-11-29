@@ -2,12 +2,12 @@ function Footer() {
   return (
     <section className="footerSection">
       <img
-        src="public/assets/graphic_assets_webp/wallAsset.webp"
+        src="/Semyonovsky/assets/graphic_assets_webp/wallAsset.webp"
         alt=""
         className="wallFooter"
       />
       <img
-        src="public/assets/graphic_assets_webp/greenBIRD.webp"
+        src="/Semyonovsky/assets/graphic_assets_webp/greenBIRD.webp"
         alt=""
         className="BIRDFooter"
       />
@@ -15,10 +15,18 @@ function Footer() {
         {"Semyonovsky".toUpperCase()}
       </a>
       <ul>
-        <li>EVENTS</li>
-        <li>RESIDENTS</li>
-        <li>ABOUT US</li>
-        <li>MAP</li>
+        <li>
+          <a href="#eventsSection">EVENTS</a>
+        </li>
+        <li>
+          <a href="#residentsSection">RESIDENTS</a>
+        </li>
+        <li>
+          <a href="#whatWeDoSection">ABOUT US</a>
+        </li>
+        <li>
+          <a href="#mapSection">MAP</a>
+        </li>
       </ul>
       <div>
         <h2>CONTACTS</h2>
