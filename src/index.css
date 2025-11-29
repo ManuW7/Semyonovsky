@@ -980,3 +980,64 @@ a:active {
   left: calc(1500 / 1920 * 100vw);
   top: calc(150 / 1920 * 100vw);
 }
+
+.footerSection {
+  background-color: var(--dark-green);
+  padding-top: calc(61 / 1920 * 100vw);
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  min-height: calc(650 / 1920 * 100vw);
+}
+
+.footerLogo {
+  font-family: "ClashGrotesk-Bold";
+  font-size: calc(35 / 1920 * 100vw);
+  margin-left: calc(50 / 1920 * 100vw);
+  z-index: 1;
+}
+
+.footerSection ul {
+  list-style: none;
+  font-size: calc(18 / 1920 * 100vw);
+  font-family: "ClashGrotesk-Medium";
+  margin-left: calc(86 / 1920 * 100vw);
+  z-index: 1;
+}
+
+.footerSection li {
+  margin-top: calc(8 / 1920 * 100vw);
+}
+
+.footerSection div h2 {
+  font-family: "ClashGrotesk-Medium";
+  font-size: calc(25 / 1920 * 100vw);
+  z-index: 2;
+  z-index: 1;
+}
+
+.footerSection div p {
+  font-family: "ClashGrotesk-Regular";
+  font-size: calc(20 / 1920 * 100vw);
+  text-decoration: underline;
+  z-index: 1;
+}
+
+.footerSection div {
+  margin-left: calc(970 / 1920 * 100vw);
+}
+
+.wallFooter {
+  z-index: 0;
+  max-width: calc(1264 / 1920 * 100vw);
+  position: absolute;
+  margin-top: calc(-50 / 1920 * 100vw);
+}
+
+.BIRDFooter {
+  z-index: 0;
+  max-width: calc(511 / 1920 * 100vw);
+  position: absolute;
+  left: calc(1444 / 1920 * 100vw);
+  top: calc(417 / 1920 * 100vw);
+}

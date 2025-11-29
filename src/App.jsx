@@ -10,6 +10,7 @@ import ResidentsSection from "./ResidentsSection.jsx";
 import MapSection from "./MapSection.jsx";
 import PartnersSection from "./PartnersSection.jsx";
 import QuestionSection from "./QestionsSection.jsx";
+import Footer from "./Footer.jsx";
 import "./assets/fonts/ClashGrotesk_Complete/Fonts/WEB/css/clash-grotesk.css";
 import "./assets/fonts/FormulaCondensed/style.css";
 
@@ -43,6 +44,7 @@ function App() {
         movingLineImage="/Semyonovsky/assets/graphic_assets_webp/movingLine.webp"
         padding="5px"
       ></MovingLine>
+      <Footer></Footer>
     </>
   );
 }
